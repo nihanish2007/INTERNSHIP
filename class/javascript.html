@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Niharika Nishanth | Web Developer Portfolio</title>
+  <meta name="description" content="Niharika Nishanth's web development portfolio showcasing skills, projects, and learning journey.">
+  <meta name="keywords" content="Niharika Nishanth, web developer, portfolio, Bangalore, HTML, CSS, JavaScript, React">
+  <meta name="author" content="Niharika Nishanth">
+  <meta property="og:title" content="Niharika Nishanth | Web Developer Portfolio">
+  <meta property="og:description" content="Explore my projects, coding skills, and learning journey in web development based in Bangalore.">
+  <meta property="og:image" content="NI_PHOTO.jpg">
+  <meta property="og:url" content="https://github.com/nihanish2007">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Niharika Nishanth | Web Developer Portfolio">
+  <meta name="twitter:description" content="Explore my projects, coding skills, and learning journey in web development based in Bangalore.">
+  <meta name="twitter:image" content="NI_PHOTO.jpg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+    <a class="logo" href="#hero">NN</a>
+
+    <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <button class="theme-toggle">🌙</button>
+    <button class="menu-toggle">☰</button>
+</nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero-section">
+      <h1>Hi, I'm Niharika 👋</h1>
+      <p>I am a passionate web developer from Bangalore.</p>
+      <div class="hero-buttons">
+        <a href="#projects">View My Projects</a>
+        <a href="#contact">Contact Me</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <figure>
+        <img src="NI_PHOTO.jpg" alt="Niharika Nishanth's profile photograph" width="100" height="100">
+        <figcaption>Niharika Nishanth</figcaption>
+      </figure>
+      <p>I'm a passionate web developer who enjoys learning and building useful websites.</p>
+    </section>
+
+    <section id="skills" class="skill-section">
+        <h2>Skills</h2>
+
+        <table>
+            <tr>
+                <th>Technology</th>
+                <th>Proficiency</th>
+                <th>Experience</th>
+            </tr>
+
+            <tr>
+                <td>HTML</td>
+                <td>Beginner</td>
+                <td>1 Month</td>
+            </tr>
+
+            <tr>
+                <td>CSS</td>
+                <td>Beginner</td>
+                <td>1 Month</td>
+            </tr>
+
+            <tr>
+                <td>JavaScript</td>
+                <td>Beginner</td>
+                <td>3 Months</td>
+            </tr>
+
+            <tr>
+                <td>C Programming</td>
+                <td>Intermediate</td>
+                <td>6 Months</td>
+            </tr>
+
+            <tr>
+                <td>Python Programming</td>
+                <td>Intermediate</td>
+                <td>6 Months</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="learning">
+      <h2>My Learning Journey</h2>
+      <ol>
+        <li>Started learning HTML</li>
+        <li>Learning CSS</li>
+        <li>Started building projects</li>
+        <li>Learning JavaScript</li>
+      </ol>
+    </section>
+
+    <section id="projects">
+      <h2>My Projects</h2>
+      <div class="project-grid">
+        <article data-category="Web Development" data-year="2026">
+          <h3>Amazon Clone</h3>
+          <p>A front-end project inspired by an e-commerce website.</p>
+          <a href="#" aria-label="View Amazon Clone project">View Project</a>
+        </article>
+        <article data-category="HTML" data-year="2026">
+          <h3>Tables</h3>
+          <p>A project demonstrating well-structured HTML tables.</p>
+          <a href="#" aria-label="View Tables project">View Project</a>
+        </article>
+        <article data-category="HTML Forms" data-year="2026">
+          <h3>Forms</h3>
+          <p>A project demonstrating accessible, user-friendly forms.</p>
+          <a href="#" aria-label="View Forms project">View Project</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="video">
+      <h2>Featured Video</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/it1rTvBcfRg?si=DzNvFUB26tX0MDi6" title="Featured YouTube video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <h2>Contact Me</h2>
+      <p>Have a project in mind? Let's work together! Fill out the form below and I'll get back to you as soon as possible.</p>
+      <form action="mailto:nihanisha2007@gmail.com" method="post" enctype="text/plain">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" placeholder="Enter your name" name="name" id="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" placeholder="Enter a valid email address" name="email" id="email" required>
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <select name="subject" id="subject">
+            <option value="web-development">Web Development</option>
+            <option value="ui-ux-design">UI/UX Design</option>
+            <option value="hire">I want to hire you</option>
+            <option value="collaboration">I want to collaborate</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea name="message" id="message" rows="4" placeholder="Tell me more about your project" required></textarea>
+        </div>
+        <button type="submit">Submit 😊</button>
+      </form>
+      <p>Email: <a href="mailto:nihanisha2007@gmail.com">nihanisha2007@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/niharika-nishanth-183474384/" target="_blank" rel="noreferrer">linkedin.com/in/niharika-nishanth</a></p>
+      <p>GitHub: <a href="https://github.com/nihanish2007" target="_blank" rel="noreferrer">github.com/nihanish2007</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© Niharika Nishanth. Built with HTML and CSS❤️.</p>
+    <nav aria-label="Social media links">
+      <a href="https://www.linkedin.com/in/niharika-nishanth-183474384/" target="_blank" rel="noreferrer">LinkedIn</a>
+      <a href="https://github.com/nihanish2007" target="_blank" rel="noreferrer">GitHub</a>
+    </nav>
+  </footer>
+  <script >
+    document.querySelector(".hero-section")
+    let parent=element.parentElement
+    console.log(parent);
+    let children=element.nextElementSibling
+    console.log(children);
+    let sibling=element.nextElementSibling
+    console.log(sibling);
+    let first=element.firstElementChild
+    console.log(first)
+  </script>
+</body>
+</html>
