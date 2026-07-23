@@ -174,15 +174,42 @@
     </nav>
   </footer>
   <script >
-    document.querySelector(".hero-section")
-    let parent=element.parentElement
-    console.log(parent);
-    let children=element.nextElementSibling
-    console.log(children);
-    let sibling=element.nextElementSibling
-    console.log(sibling);
-    let first=element.firstElementChild
-    console.log(first)
-  </script>
+    <script>
+    // Create a new project card
+    let projectCard = document.createElement("article");
+
+    // Add class and attributes
+    projectCard.className = "project-card";
+    projectCard.setAttribute("data-category", "Web Development");
+    projectCard.setAttribute("data-year", "2026");
+
+    // Add the HTML content
+    projectCard.innerHTML = `
+        <img src="amazonlogo.jpg" alt="Amazon Clone" width="250">
+
+        <div class="project-body">
+            <h3>Amazon Clone (JavaScript)</h3>
+
+            <p>
+                A responsive Amazon Clone built using HTML,
+                CSS and JavaScript.
+            </p>
+
+            <a href="#" aria-label="View Amazon Clone">
+                View Project
+            </a>
+        </div>
+    `;
+
+    // Select the project grid
+    let projectGrid = document.querySelector(".project-grid");
+
+    // Append the new project card
+    projectGrid.appendChild(projectCard);
+
+    // Display a message in the console
+    console.log("New project card added successfully!");
+</script>
+    </script>
 </body>
 </html>
